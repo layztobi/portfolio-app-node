@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: #ebdbfb;
+}
+
+nav{
+    padding: 50px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+a{
+    text-align: center; 
+    text-decoration: none;      
+}
+a:hover{
+    background-color: #a222d6;
+} 
+
+.split-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+span{
+    color: #e92d94;
+}
+
+.btn1{
+    background-color: #2c115f;
+    color: #ebdbfb;
+    font-size: 20px;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+}
+.btn1:hover{
+    background-color: #a222d6;
+}
+ .contactme{
+    width: 40%;
+    border: 2px solid #e92d94; 
+    border-radius: 8px;
+    margin:auto;
+    margin-top: 100px;
+    padding-left: 7%;
+ } 
+.name,.email,textarea,.username,.password{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #2c115f;
+}
+
+.priority{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #2c115f;
+    margin-left: 4%;
+}
+.submit{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    background-color: #2c115f;
+    color: #ebdbfb;
+    margin-left: 4%;
+}
+.submit:hover, .btn2:hover{
+    background-color: #a222d6;
+}
+.btn2{
+    background-color: #2c115f;
+    color: #ebdbfb;
+    width: 85%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #2c115f;
+    border: none;
+}
+
+.loginform{
+    width: 40%;
+    border: 2px solid #e92d94; 
+    border-radius: 8px;
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.formregister{
+    width: 40%;
+    border: 2px solid #e92d94; 
+    border-radius: 8px;
+    margin:auto;
+    margin-top: 20px;
+    text-align: left;
+    padding: 2%;
+}
+.fname,.lname,.phone,.gender,.country,.stp,.uname,.pswrd,.cpswrd{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #2c115f;
+}
+.btn3{
+    background-color: #2c115f;
+    color: #ebdbfb;
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    /* border: 2px solid #2c115f; */
+    border: none;
+    margin-top: 20px;
+}
+.regtitle{
+    text-align: center;
+}
+footer{
+    background-color: #836c94;
+    text-align: center;
+    height: 50px;
+    padding:  5px;
+    margin-top: 5px;
+}
